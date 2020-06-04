@@ -1,0 +1,40 @@
+// ============================================================================
+// Site defaults
+// ============================================================================
+
+// Base font size
+// this will affect all 'rem' and 'em' based units
+// need to be declared in root 'html'
+$base-font: 16px !default;
+$font-size-base: $base-font !default; // fallback for bootstrap variable
+
+// Fonts
+// $font-primary: !default;
+// $font-secondary: !default;
+
+// Breakpoints - to be used as mixins
+// Base in Bootstrap Breakpoints
+// less than 576px is default style, mobile-first approach
+$mobileUp: '(min-width: 576px)' !default;
+$tabletUp: '(min-width: 768px)' !default;
+$desktopUp: '(min-width: 992px)' !default;
+$widescreenUp: '(min-width: 1200px)' !default;
+$widerscreenUp: '(min-width: 1440px)' !default;
+
+// Color Pallete
+// ============================================================================
+// ===============================
+// Base Colors
+// ===============================
+$white: #ffffff;
+$black: #000000;
+
+// ===============================
+// Initial Colors
+// Can be changed colors
+// ===============================
+
+// ===============================
+// Derived Colors
+// Base from initial colors
+// ===============================
